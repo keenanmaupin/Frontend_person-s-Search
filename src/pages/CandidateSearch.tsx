@@ -1,7 +1,7 @@
 // CandidateSearch.tsx
 import { useState, useEffect } from 'react';
 import { searchGithub } from '../api/API';
-import { Candidate } from '../api/Candidate.interface';
+import { Candidate } from '../interfaces/Candidate.interface';
 
 const CandidateSearch = () => {
   const [candidates, setCandidates] = useState<Candidate[]>([]);

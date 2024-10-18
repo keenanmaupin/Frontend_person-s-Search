@@ -1,6 +1,6 @@
 // SavedCandidates.tsx
 import { useEffect, useState } from 'react';
-import { Candidate } from '../api/Candidate.interface';
+import { Candidate } from '../interfaces/Candidate.interface';
 
 const SavedCandidates = () => {
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>(() => {
