@@ -3,6 +3,7 @@
 
 export interface Candidate {
     id: number;
+    login: string;
     name: string | null;
     username: string;
     location: string | null;
